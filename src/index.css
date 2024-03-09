@@ -1,0 +1,168 @@
+/* App global colors */
+
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@font-face {
+  font-family: "Roboto";
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url('../fonts/Cairo-Regular.ttf');
+}
+
+html,
+body,
+#root,
+.App {
+  margin: 0;
+  font-family: 'Robot', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F8F8;
+}
+
+[dir='rtl'] *,
+[dir='rtl'] span,
+[dir='rtl'] button {
+  font-family: 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.app-body {
+  margin-top: 70px;
+}
+
+.MuiTable-root {
+  border-collapse: separate !important;
+  border-spacing: 0 4px !important;
+}
+
+.MuiTable-root td {
+  color: #545B61;
+}
+
+.grouping-table {
+  background-color: red;
+}
+
+.MuiTable-root th,
+.MuiTable-root td {
+  border-top: 1px solid #F3F3F3;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.MuiTable-root th:first-child,
+.MuiTable-root td:first-child {
+  border-inline-start: 1px solid #F3F3F3;
+}
+
+.MuiTable-root th:last-child,
+.MuiTable-root td:last-child {
+  border-inline-end: 1px solid #F3F3F3;
+}
+
+.MuiTableCell-root {
+  background-color: #FCFCFC !important;
+  font-size: 14px !important;
+}
+
+.MuiTableSortLabel-root {
+  font-weight: bold !important;
+}
+
+.MuiTableRow-head {
+  border: 1px solid #F3F3F3;
+  background-color: #FCFCFC !important;
+}
+
+.MuiTableCell-head {
+  text-align: center !important;
+}
+
+.MuiTableRow-root p {
+  margin: 0;
+}
+
+.MuiTableRow-root td {
+  text-align: center !important;
+}
+
+.MuiPaper-root {
+  box-shadow: none !important;
+}
+
+.pac-container {
+  z-index: 9999;
+}
+
+.material-icons {
+  font-family: 'Material Icons' !important;
+}
+
+.pointer-hover:hover {
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background-color: #FBB627 !important;
+  color: white !important;
+  text-transform: none !important;
+  font-weight: normal !important;
+  font-size: 13px !important;
+  padding: 5px 30px !important;
+  margin-inline-start: 20px !important;
+  border: 1px solid #FBB627 !important;
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.primaryBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primaryBtn:hover {
+  background-color: #fff !important;
+  color: #FBB627 !important;
+}
+
+[dir="rtl"] .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  padding-right: 0% !important;
+  padding-inline-end: 14px;
+}
+
+[dir="rtl"] .MuiOutlinedInput-notchedOutline {
+  text-align: start !important;
+}
+
+[dir="rtl"] .MuiAutocomplete-hasPopupIcon.css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding-right: 0 !important;
+  padding-left: 30px;
+}
+
+[dir="rtl"] .MuiAutocomplete-endAdornment {
+  right: unset !important;
+  left: 9px;
+}
+
+[dir="rtl"] .MuiTypography-root {
+  font-family: 'Cairo';
+}
+
+[dir="rtl"] .MuiInputLabel-root {
+  font-family: 'Cairo';
+  left: inherit !important;
+  right: 1.75rem !important;
+  line-height: 1.1em !important;
+  transform-origin: right !important;
+}

@@ -1,0 +1,14 @@
+import React from 'react';
+import type { {{folderName name}}Props } from './{{folderName name}}.types';
+
+export const {{folderName name}}: React.FC<{{folderName name}}Props> = ({
+  children = null,
+  className = '',
+}) => {
+  return (
+    <div className={className}>
+      {children}
+      my {{folderName name}} component goes here. Please update the UI
+    </div>
+  );
+};

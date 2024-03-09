@@ -1,0 +1,8 @@
+.paginationCustomStyle{
+    margin: 10px 0px;
+    display: flex; 
+    justify-content: center;
+    .MuiButtonBase-root {
+      min-width: 32px !important;
+    }
+}

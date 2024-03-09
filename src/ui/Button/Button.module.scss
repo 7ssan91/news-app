@@ -1,0 +1,289 @@
+/* Button styles */
+.btn,
+button.btn {
+    display: inline-flex;
+    transition: colors 0.2s;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Primary Button */
+.btn-primary,
+button.btn-primary {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover,
+button.btn-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:disabled,
+button.btn-primary:disabled {
+    cursor: not-allowed;
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    opacity: 0.6;
+}
+
+/* Secondary Button */
+.btn-secondary,
+button.btn-secondary {
+    border: 1px solid #ff6f61;
+    background-color: #ff6f61;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-secondary:hover,
+button.btn-secondary:hover {
+    border-color: #ff4538;
+    background-color: #ff4538;
+}
+
+.btn-secondary:disabled,
+button.btn-secondary:disabled {
+    cursor: not-allowed;
+    border-color: #ffa096;
+    background-color: #ffa096;
+}
+
+/* Ternary Button */
+.btn-transparent,
+button.btn-transparent {
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-ternary:hover,
+button.btn-ternary:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.btn-ternary:disabled,
+button.btn-ternary:disabled {
+    cursor: not-allowed;
+    border-color: #000000;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+/* Outline Primary Button */
+.btn-outlinePrimary,
+button.btn-outlinePrimary {
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.btn-outlinePrimary:hover,
+button.btn-outlinePrimary:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outlinePrimary:disabled,
+button.btn-outlinePrimary:disabled {
+    cursor: not-allowed;
+    border-color: #000000;
+    color: #000000;
+    opacity: 0.6;
+}
+
+/* Add to Cart Button */
+.btn-addToCart,
+button.btn-addToCart {
+    border: 1px solid #00263b;
+    background-color: transparent;
+    color: #00263b;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.btn-addToCart:disabled,
+button.btn-addToCart:disabled {
+    cursor: not-allowed;
+    border-color: #000000;
+    color: #000000;
+    opacity: 0.6;
+}
+
+// /* Outline Secondary Button */
+// .btn-outlineSecondary,
+// button.btn-outlineSecondary {
+//     /* Add styles here */
+// }
+
+// /* Outline Ternary Button */
+// .btn-outlineTernary,
+// button.btn-outlineTernary {
+//     /* Add styles here */
+// }
+
+/* Primary Underline Button */
+.btn-primaryUnderline,
+button.btn-primaryUnderline {
+    margin-right: 0.25rem;
+    text-decoration: underline;
+    color: #00263b;
+}
+
+/* Basic Underline Button */
+.btn-basicUnderline,
+button.btn-basicUnderline {
+    margin-right: 0.25rem;
+    text-decoration: underline;
+    color: #000000;
+}
+
+/* Primary Text Button */
+.btn-primaryText,
+button.btn-primaryText {
+    margin-right: 0.25rem;
+    color: var(--primary-color);
+}
+
+/* Basic Text Button */
+.btn-basicText,
+button.btn-basicText {
+    margin-right: 0.25rem;
+}
+
+/* Size variations */
+.btn-size-2xs,
+button.btn-size-2xs {
+    padding: 0.5rem;
+    font-size: 0.625rem;
+    /* 2xs */
+}
+
+.btn-size-xs,
+button.btn-size-xs {
+    padding: 1rem;
+    font-size: 0.75rem;
+    /* xs */
+}
+
+.btn-size-sm,
+button.btn-size-sm {
+    padding: .5rem;
+    font-size: .8rem;
+    /* sm */
+}
+
+.btn-size-md,
+button.btn-size-md {
+    padding: .8rem;
+    font-size: 1rem;
+    /* md */
+}
+
+.btn-size-lg,
+button.btn-size-lg {
+    padding: 1rem;
+    font-size: 1.5rem;
+    /* lg */
+}
+
+.btn-size-xl,
+button.btn-size-xl {
+    padding: 3rem;
+    font-size: 1.75rem;
+    /* xl */
+}
+
+.btn-size-2xl,
+button.btn-size-2xl {
+    padding: 4rem;
+    font-size: 2rem;
+    /* 2xl */
+}
+
+/* Rounded variations */
+.btn-rounded-none,
+button.btn-rounded-none {
+    border-radius: 0;
+}
+
+.btn-rounded-sm,
+button.btn-rounded-sm {
+    border-radius: 0.125rem;
+    /* sm */
+}
+
+.btn-rounded-default,
+button.btn-rounded-default {
+    border-radius: 0.25rem;
+    /* default */
+}
+
+.btn-rounded-md,
+button.btn-rounded-md {
+    border-radius: 0.375rem;
+    /* md */
+}
+
+.btn-rounded-lg,
+button.btn-rounded-lg {
+    border-radius: 0.5rem;
+    /* lg */
+}
+
+.btn-rounded-xl,
+button.btn-rounded-xl {
+    border-radius: 0.75rem;
+    /* xl */
+}
+
+.btn-rounded-2xl,
+button.btn-rounded-2xl {
+    border-radius: 1rem;
+    /* 2xl */
+}
+
+.btn-rounded-3xl,
+button.btn-rounded-3xl {
+    border-radius: 1.25rem;
+    /* 3xl */
+}
+
+.btn-rounded-full,
+button.btn-rounded-full {
+    border-radius: 50%;
+}
+
+.btn-cases-upper,
+button.btn-cases-upper {
+    text-transform: uppercase;
+}
+
+.btn-cases-lower,
+button.btn-cases-lower {
+    text-transform: lowercase;
+}
+
+.btn-cases-capital,
+button.btn-cases-capital {
+    text-transform: capitalize;
+}

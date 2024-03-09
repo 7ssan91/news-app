@@ -1,0 +1,24 @@
+.dashboardWrapper {}
+
+.plans {
+    padding-left: 30px;
+
+    .block {
+        background-color: #fff;
+        padding: 12px;
+        border-radius: 7px;
+
+        .planName {
+            margin-top: 10px;
+        }
+
+        .brandBtn {
+            background-color: #FBB627;
+            border-radius: 4px;
+            padding: 10px;
+            min-width: 20%;
+            color: #fff;
+            float: right;
+        }
+    }
+}

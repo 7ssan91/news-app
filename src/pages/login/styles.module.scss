@@ -1,0 +1,37 @@
+.formWrapper {
+    background-image: url("@app/assets/images/bg-shape.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30px 15px;
+
+
+    .formCard {
+        min-width: 70%;
+        margin: 0px auto;
+        box-shadow: none;
+        border-radius: 8px;
+        padding: 30px;
+    }
+}
+
+.formBg {
+    background-image: url("@app/assets/images/login-cover.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .overlayText {
+        position: absolute;
+        margin: 0 auto;
+        left: 27%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,67 @@
+.drawerWrapper {
+    overflow: inherit !important;
+
+    .drawerContainer,
+    .drawerContainerMini {
+        width: 220px;
+        transition: .4s;
+        overflow: hidden;
+    }
+
+    .drawerContainer {
+        height: 100%;
+        padding: 10px;
+        padding-inline-start: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 6px;
+    }
+
+    .drawerContainerMini {
+        width: 45px;
+    }
+}
+
+.activeParent,
+.activeChild {
+    background-color: rgba(var(--rgb-primary-color), 0.3);
+    border-start-end-radius: 15px;
+    border-end-end-radius: 15px;
+    color: var(--primary-color) !important;
+
+    i {
+        background-color: var(--primary-color);
+        height: 20px;
+        width: 4px;
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
+    }
+
+    &:hover {
+        background-color: var(--primary-color);
+        color: var(--primary-color) !important;
+    }
+}
+
+.activeChild.activeMinChild {
+    padding-inline-start: 20px !important;
+
+}
+
+.toggleMenu {
+    transition: transform 0.3s ease-out;
+    transform: translateX(-100%);
+}
+
+.toggleMiniSidebarBtn {
+    position: absolute !important;
+    right: -20px;
+    padding: 5px !important;
+    z-index: 9;
+    top: -15px;
+    border-radius: 50% !important;
+}
+
+[dir="rtl"] .toggleMiniSidebarBtn {
+    right: unset;
+    left: -20px;
+}
